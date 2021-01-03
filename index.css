@@ -8,74 +8,69 @@ body {
   justify-content: center;
 }
 .clock {
-  background: #e6e7ee;
-	border: 2px solid #d1d9e6;
-	border-radius: 100%;
-	box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff;
-	height: 350px;
-	position: relative;
-	width: 350px;
+  background: linear-gradient(135deg, #f5f5f5, #e6e7ee);
+  border: 2px solid #d1d9e6;
+  border-radius: 100%;
+  box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff;
+  height: 350px;
+  position: relative;
+  width: 350px;
 }
 
 .minute,
 .hour {
   background: white;
-	border: 2px solid #1b1b1b;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	bottom: 0;
-	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
-	height: 80px;
-	left: 0;
-	margin: auto;
-	position: absolute;
-	right: 0;
-	top: -24%;
-	transform-origin: bottom center;
-	transition: transform 0.3s cubic-bezier(0.4, 2.08, 0.55, 0.44);
-	width: 4px;
+  border: 2px solid #1b1b1b;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  bottom: 0;
+  height: 80px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: -24%;
+  transform-origin: bottom center;
+  transition: transform 0.3s cubic-bezier(0.4, 2.08, 0.55, 0.44);
+  width: 4px;
 }
 
 .minute {
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
-	height: 125px;
-	left: 0;
-	position: absolute;
-	top: -37%;
-	width: 4px;
+  height: 125px;
+  top: -37%;
 }
 
 .second {
   background: #ff6f61;
-	border: 1px solid #ff6f61;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	bottom: 0px;
-	height: 180px;
-	left: 0px;
-	margin: auto;
-	position: absolute;
-	right: 0px;
-	top: -40.8%;
-	transform-origin: 50% 89%;
-	transition: transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44);
-	width: 2px;
-	z-index: 1;
+  border: 1px solid #ff6f61;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  bottom: 0px;
+  height: 180px;
+  left: 0px;
+  margin: auto;
+  position: absolute;
+  right: 0px;
+  top: -40.8%;
+  transform-origin: 50% 89%;
+  transition: transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44);
+  width: 2px;
+  z-index: 1;
 }
 .hide-transition {
   transition: none;
 }
 .axis {
   background: #ff6f61;
-	border: 2px solid white;
-	border-radius: 100%;
-	bottom: 0;
-	box-shadow: 0 0 0 1px #1b1b1b;
-	height: 8px;
-	left: 0;
-	margin: auto;
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 8px;
+  border: 2px solid white;
+  border-radius: 100%;
+  bottom: 0;
+  box-shadow: 0 0 0 1px #1b1b1b;
+  height: 8px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 8px;
 }
