@@ -1,2 +1,2 @@
 # clock
-[Analog clock](https://rizz-wan.github.io/clock/)
+Neumorphic analog clock
