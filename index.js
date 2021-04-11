@@ -30,7 +30,7 @@ function clock() {
   hourHand.style.boxShadow = `${hourOffsetSign}6px ${hourOffsetSign}6px 6px #b8b9be`;
   minuteHand.style.boxShadow = `${minuteOffsetSign}6px ${minuteOffsetSign}6px 6px #b8b9be`;
   secondHand.style.boxShadow = `${secondOffsetSign}6px ${secondOffsetSign}6px 6px #b8b9be`;
-  
+
   //V2
   const weekday = new Array(7);
   weekday[0] = "Sunday";
@@ -45,7 +45,7 @@ function clock() {
     ", " +
     makeDouble(date.getDate()) +
     "/" +
-    makeDouble(date.getMonth()) +
+    makeDouble(date.getMonth()+1) +
     " - " +
     makeDouble(hours) +
     ":" +
