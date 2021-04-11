@@ -1,6 +1,6 @@
 # Clock
 A neumorphic clock setup.
-> ![sample](./clock.png)
+> ![sample](./image.png)
 ## Running project locally
 - Clone Repo
 - Open [index.html](./index.html) in the browser
