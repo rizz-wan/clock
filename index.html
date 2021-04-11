@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <title>Rizz-Clock</title>
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body>
+  <body ondblclick="goFullscreen()">
     <div class="clock-container">
       <div class="clock">
         <span class="hour"></span>
@@ -12,6 +15,8 @@
         <span class="axis"></span>
       </div>
     </div>
+    <div id="clock-digi" class="clock-digi"></div><br/>
+    <div id="clock-sec" class="clock-digi sec"></div>
     <script src="index.js"></script>
   </body>
 </html>

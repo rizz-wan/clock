@@ -1,10 +1,16 @@
 body {
   background: #e6e7ee;
+  /*diable text selection*/
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 }
 .clock-container {
   align-items: center;
   display: flex;
-  height: 80vh;
+  height: 70vh;
   justify-content: center;
 }
 .clock {
@@ -73,4 +79,29 @@ body {
   right: 0;
   top: 0;
   width: 8px;
+}
+/*V2*/
+.clock-digi {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #d1d9e6;
+  width: max-content;
+  max-width: 350px;
+  margin: auto;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  border-radius: 10px;
+  color: #54575c;
+  box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff;
+  text-shadow: 1px 1px 1px #b8b9be, -1px -1px 1px #fff;
+}
+
+.sec {
+  border: 2px solid #ff6f61;
+  font-size: 24px;
+  border-radius: 100%;
+  height: 28px;
+  width: 30px;
 }
