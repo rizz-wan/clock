@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body ondblclick="goFullscreen()">
-    <div class="clock-container">
-      <div class="clock">
-        <span class="hour"></span>
-        <span class="minute"></span>
-        <span class="second"></span>
-        <span class="axis"></span>
+    <div class="outline">
+      <div class="clock-container">
+        <div class="clock">
+          <span class="hour"></span>
+          <span class="minute"></span>
+          <span class="second"></span>
+          <span class="axis"></span>
+        </div>
       </div>
+      <div id="clock-digi" class="clock-digi"></div>
+      <div id="clock-sec" class="clock-digi sec"></div>
     </div>
-    <div id="clock-digi" class="clock-digi"></div><br/>
-    <div id="clock-sec" class="clock-digi sec"></div>
     <script src="index.js"></script>
   </body>
 </html>
