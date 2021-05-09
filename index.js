@@ -45,7 +45,7 @@ function clock() {
     ", " +
     makeDouble(date.getDate()) +
     "/" +
-    makeDouble(date.getMonth()+1) +
+    makeDouble(date.getMonth() + 1) +
     " - " +
     makeDouble(hours) +
     ":" +
@@ -73,4 +73,11 @@ function makeDouble(i) {
     i = "0" + i;
   }
   return i;
+}
+
+function toggleCredit() {
+  const placeholder = document.querySelector("#placeholder");
+  const content = document.querySelector("#content");
+  placeholder.toggleAttribute("hidden");
+  content.toggleAttribute("hidden");
 }
