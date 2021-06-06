@@ -11,7 +11,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   overflow: hidden;
-  cursor: url("https://static-utils.000webhostapp.com/cursor/normal.png") 8 8,
+  cursor: url("https://static-utils.000webhostapp.com/cursor/normal-solid.png") 8 8,
     auto;
 }
 .clock {
