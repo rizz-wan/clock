@@ -11,7 +11,8 @@ body {
   justify-content: center;
   min-height: 100vh;
   overflow: hidden;
-  cursor: url("https://static-utils.000webhostapp.com/cursor/normal-solid.png") 8 8,
+  cursor: url("https://static-utils.000webhostapp.com/cursor/normal-solid.png")
+      8 8,
     auto;
 }
 .clock {
@@ -107,6 +108,7 @@ body {
   border-radius: 50px;
   padding: 28px;
   box-shadow: 6px 6px 12px #b8b9be inset, -6px -6px 12px #fff inset;
+  border: 2px solid #d1d9e6;
 }
 
 .credit {
